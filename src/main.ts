@@ -21,7 +21,8 @@ declare global {
     working: boolean;
   }
 
-  // Syntax for adding proprties to `global` (ex "global.log")
+  // Syntax for adding properties to `global` (ex "global.log")
+  // eslint-disable-next-line
   namespace NodeJS {
     interface Global {
       log: any;

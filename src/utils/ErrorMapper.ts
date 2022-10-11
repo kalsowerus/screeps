@@ -1,5 +1,7 @@
 import { SourceMapConsumer } from "source-map";
 
+/* eslint-disable */
+
 export class ErrorMapper {
   // Cache consumer
   private static _consumer?: SourceMapConsumer;
